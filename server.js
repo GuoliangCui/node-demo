@@ -10,4 +10,4 @@ app.get('/', function (req, res) {
 app.get('/test', function (req, res) {
     res.send('test page')
 })
-app.listen(3000);
+app.listen(process.env.PORT);
